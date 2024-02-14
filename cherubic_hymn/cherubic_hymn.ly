@@ -73,11 +73,11 @@ bass = \relative c {
   d2 d | d d | d1 | d2 . d4 | a'2 (a,) | a1 |
   a2 a | a g | a1 (| a2.) a4 |b2 a2 | b1 |
   d1 (| d) | d (| d2) d | a'1 (| a,) | 
-  b2 (c) | b g | a2. ( g4 ) | fs'1 | g2 a2 | b1 | \bar ":|."
+  b2 (c) | b g | a2. ( g4 ) | fs'1 | g2 a2 | b1 |
   d,2 d | d1 (| d2) d | d2. d4 | d2. d4 | a'2 a | a2. a4 |
   a4 a2 a4 | a a g g | a1 (| a4) a a a | b2 (a4) a | a1
   d,1 (| d2) d2 | d1 (| d1 | a'1) | a1
-  b,2 c | b ( g') | a2. (g4)\fermata |fs2 fs | g (g) | b1
+  b,2 c | b ( g') | a2. (g4)\fermata |fs2 fs | g (g) | b1 \bar "|."
 }
 
 verse = \lyricmode {
