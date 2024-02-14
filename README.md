@@ -1,2 +1,2 @@
 # music
-Lilypond music files
+LilyPond music files
