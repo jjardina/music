@@ -32,8 +32,8 @@ soprano = \relative c'' {
   e2 fs | g b | a1 (| g2 a4) a | fs2 fs | fs1 | \break
   a1  (| a1) | b1 (| a2) g4 (a) | g2 ( fs | e1\fermata) | \break
   g2. ( a4) | g ( a g) fs | e1 | fs2 ( e4 fs) | d2\> cs4( d8 cs) | b1\! | \break
-  a'2 a |\bar "||" a1 (| a2) a | b2. b4 | a2 ( g4) a | g2 fs | d2. d4\fermata | \break
-  e4 e2 fs4 | g g b b | a1 (| g4) g a a | fs2. fs4 | fs1 | \break
+  a'2 a |\bar "||" a1 (| a2) a | b2. b4 | a2 ( g4) a | g2 fs | e2.\fermata  \break
+  e4 | e2 fs2 | g4 g4 b4 b4 | a1 (| g4) g a a | fs2. fs4 | fs1 | \break
   d'2.^\al a4^\le | d2.^\lu cs4^\ia | b2^\al (d4) e^\le | d2.^\lu ( a4 | g2 fs ) | e1^\ia\fermata \break
   g2 g4 (a) | g ( a g fs) | e2. (e4)\fermata | a^\al a^\le a2^\lu (| b a) | b1^\ia
 }
@@ -46,10 +46,24 @@ alto = \relative c' {
   cs2 d | e d4( e)| fs2\=1 ( e4 d\=2( | d\=2) e d\=1) cs | d( e ) d (cs) | d1 |  
   fs2\< ( e | d4 e fs2) | d4 ( e fs\! g | fs2 ) e4 ( fs ) | e\=1( fs e d\=2 ( | d\=2) e d cs\=1) | 
   d2( e) | d2. d4 | d( e d cs) | d2( cs4 d) | b2 cs4( d8 cs8) | b1 |
-  fs'2 fs | fs ( e | d4 e) fs2 | d4 ( e fs) g | fs2 (e4) fs | e (fs) e (d) | e ( d cs d) |
-  cs4 cs2 d4 | e e d e | fs2 ( e4 d | d) e d cs | d ( e d) cs | b1 |
-  fs'2 ( e | d4 e ) fs2 | d4 ( e fs g | fs2 e4 fs | e fs e d) | d (e d cs) |
-  d2 e | d1 |d4 (e d cs) | d2 e4 ( fs ) | d2 (cs4 d8 cs) | b1
+  fs'2 fs | fs ( e | d4 e) fs2 | d4 ( e fs) g | fs2 (e4) fs | e (fs) e (d) | e ( d cs\fermata) 
+  cs4 | cs2 d2 | e4 e4 d4 e4 | fs2 ( e4 d | d) e d cs | d ( e d) cs | b1 |
+  fs'2 ( e | d4 e ) fs2 | d4 ( e fs g | fs2 e4 fs | e fs e d) | d (e d cs\fermata) |
+  d2 e | d1 |d4 (e d cs) | d2 cs4 ( d ) | b2 (cs4 d8 cs) | b1
+}
+
+split = \relative c'{
+  \global \voiceOneStyle
+  s1 | s1 | s1 | s1 | s1 | s1 |
+  s1 | s1 | s1 | s1 | s1 | s1 |
+  s1 | s1 | s1 | s1 | s1 | s1 |
+  s1 | s1 | s1 | s1 | s1 | s1 |
+  s1 | s1 | s1 | s1 | s1 | s1 |
+  s1 | s1 | s1 | s1 | s1 | s1 |
+  s1 | s1 | s1 | s1 | s1 | s1 |
+  s1 | s1 | s1 | s1 | s1 | s1 | s1 |
+  a'1 | a2 a2 | g2 a2 | a2 g4 a4 | s1 | s1 |
+  s1 | s1 | s1 | fs2 e4 (fs) | d2
 }
 
 tenor = \relative c' {
@@ -60,10 +74,10 @@ tenor = \relative c' {
   a2 a | a g | a1 (| a2.) a4 | b2 a | b1 |
   d1 (| d) | d (| d2) d2 | a1 (| a1\fermata) |
   b2 (c) | b g | a2. ( g4 ) | fs1 | g2 a | b1 |
-  d2 d | d1 (| d2) d | d2. d4 | d2. d4 | a2 a | a2. a4\fermata |
-  a4 a2 a4 | a a g g |a1 (| a4) a a a | b2 (a4) a | a1
+  d2 d | d1 (| d2) d | d2. d4 | d2. d4 | a2 a | a2. a4 |
+  a2 a2 | a4 a4 g4 g4 |a1 (| a4) a a a | b2 (a4) a | b1
   d1 (| d2) d2 | d1 (| d1 | a1) | a1\fermata |
-  b2 c | b ( g) | a2. (g4) |fs2 fs | g (g) | b1
+  b2 c | b ( g) | a2. (g4) |fs2 fs | g (a) | b1
 }
 
 bass = \relative c {
@@ -75,9 +89,9 @@ bass = \relative c {
   d1 (| d) | d (| d2) d | a'1 (| a,) | 
   b2 (c) | b g | a2. ( g4 ) | fs'1 | g2 a2 | b1 |
   d,2 d | d1 (| d2) d | d2. d4 | d2. d4 | a'2 a | a2. a4 |
-  a4 a2 a4 | a a g g | a1 (| a4) a a a | b2 (a4) a | a1
+  a2 a2 | a4 a4 g4 g4 | a1 (| a4) a a a | b2 (a4) a | b1
   d,1 (| d2) d2 | d1 (| d1 | a'1) | a1
-  b,2 c | b ( g') | a2. (g4)\fermata |fs2 fs | g (g) | b1 \bar "|."
+  b,2 c | b ( g') | a2. (g4)\fermata |fs2 fs | g (a) | b1 \bar "|."
 }
 
 verse = \lyricmode {
@@ -102,6 +116,7 @@ verse = \lyricmode {
     } <<
       \new Voice = "soprano" { \voiceOne \soprano }
       \new Voice = "alto" { \voiceTwo \alto }
+      \new Voice = "split-alto"{\voiceFour \split}
     >>
    \new Lyrics \with {
       \override VerticalAxisGroup.staff-affinity = #CENTER
