@@ -35,7 +35,7 @@ soprano = \relative c'' {
   a'2 a |\bar "||" a1 (| a2) a | b2. b4 | a2 ( g4) a | g2 fs | e2.\fermata  \break
   e4 | e2 fs2 | g4 g4 b4 b4 | a1 (| g4) g a a | fs2. fs4 | fs1 | \break
   d'2.^\al a4^\le | d2.^\lu cs4^\ia | b2^\al (d4) e^\le | d2.^\lu ( a4 | g2 fs ) | e1^\ia\fermata \break
-  g2 g4 (a) | g ( a g fs) | e2. (e4)\fermata | a^\al a^\le a2^\lu (| b a) | a1^\ia
+  g2 g4 (a) | g ( a g fs) | e2. (e4)\fermata | a^\al a^\le a2^\lu (| b a) | b1^\ia
 }
 
 alto = \relative c' {
