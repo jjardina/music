@@ -62,7 +62,7 @@ split = \relative c'{
   s1 | s1 | s1 | s1 | s1 | s1 |
   s1 | s1 | s1 | s1 | s1 | s1 |
   s1 | s1 | s1 | s1 | s1 | s1 | s1 |
-  a'1 | a2 a2 | g2 a2 | a2 g4 a4 | s1 | s1 |
+  a'1 | a2 a2 | g2 a2 | a2 g4 s4 | s1 | s1 |
   s1 | s1 | s1 | fs2 e4 (fs) | d2
 }
 
@@ -116,7 +116,7 @@ verse = \lyricmode {
     } <<
       \new Voice = "soprano" { \voiceOne \soprano }
       \new Voice = "alto" { \voiceTwo \alto }
-      \new Voice = "split-alto"{\voiceFour \split}
+      \new Voice = "split-alto"{\voiceThree \split}
     >>
    \new Lyrics \with {
       \override VerticalAxisGroup.staff-affinity = #CENTER
