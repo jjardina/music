@@ -6,7 +6,7 @@
   subtitle = "Georgian Chant"
   composer = "King Demetre I of Georgia (1125-1156)"
   copyright = "Created for Saint James Orthodox Church, Gainesville, GA, USA. Feb 2024"
-  tagline = "Reproduced by: Subdn. Jason Jardina"
+  tagline = "Reproduced by: Subdn. Jason Jardina and Nick Yeatman"
 }
 
 \paper {
